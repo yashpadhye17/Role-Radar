@@ -1,0 +1,11 @@
+streamlit
+groq
+pandas 
+pyyaml
+requests
+numpy
+pymupdf
+tqdm
+apify-client
+python-dotenv
+langchain
