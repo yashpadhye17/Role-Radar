@@ -9,7 +9,7 @@ st.markdown("Upload your resume and get matched with the latest job listings fro
 uploaded_file = st.file_uploader("Upload your Resume (PDF format only)", type=["pdf"], key="resume_uploader")
 
 if uploaded_file:
-    with st.spinner("Processing your resume and fetching job listings..."):
+    with st.spinner("Processing your resume..."):
         resume_text = extract_text_from_pdf(uploaded_file)
         st.success("Resume processed successfully!")
     
